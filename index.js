@@ -10,6 +10,10 @@ song.get('/',function(req,res)
     res.send("Hello.... Welcome to Our Page")
 })
 
+song.get("/add",function(req,res){
+    res.send("This page is for addition")
+})
+
 
 song.listen(port,function(){
     console.log("My Own Server......")
